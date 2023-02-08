@@ -6,7 +6,7 @@ ser.close()
 ser.open()
 while True:
     print("try")
-    time.sleep(10)
-    s=ser.read(100) #reading up to 100 bytes
+    time.sleep(10) # делей для конченных, но мне было лень писать прерывание.
+    s=ser.read(100) # по 100 байт
     print(s)
-ser.close()
+ser.close( )
